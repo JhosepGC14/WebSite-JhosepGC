@@ -1,0 +1,16 @@
+.interest {
+  display: inline-block;
+  border-radius: 20px;
+  box-shadow: 0 10px 19px 0 rgba(0, 0, 0, 0.02);
+  border: 1px solid #f0f0f0;
+  background-color: var(--white);
+  /* margin-top: 14px; */
+  /* margin-right: 13px; */
+}
+
+.interest span {
+  font-family: "Source Sans Pro";
+  display: inline-block;
+  font-size: 1.4em;
+  margin: 11px 16px;
+}

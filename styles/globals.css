@@ -44,6 +44,9 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+span {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  color: #555555;
+  font-size: 1.5em;
 }

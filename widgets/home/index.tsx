@@ -1,14 +1,15 @@
-import React from 'react'
-import Layout from '../../components/Layout'
+import React from "react";
+import Layout from "../../components/Layout";
+import SectionAbout from "../../components/SectionAbout";
+import SectionInitial from "../../components/SectionInitial";
 
 const HomePage = () => {
   return (
     <Layout>
-      <section>
-        <h1>asdasdsa</h1>
-      </section>
+      <SectionInitial />
+      <SectionAbout />
     </Layout>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;

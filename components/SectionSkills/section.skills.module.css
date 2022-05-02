@@ -1,0 +1,87 @@
+/*HABILIDADES*/
+
+.section_skills {
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  padding-top: 90px;
+  max-width: 1336px;
+}
+
+.content_text {
+  width: 100%;
+}
+
+.content_text h4 {
+  text-align: center;
+  color: var(--red) !important;
+  font-weight: normal;
+  font-size: 2.3em;
+  letter-spacing: 0.5px;
+}
+
+.content_text h2 {
+  font-size: 4em;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--black) !important;
+  margin-bottom: 65px;
+}
+
+.container_skills {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+.content_skills {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 50px 0px 40px;
+}
+
+.section_skills h3 {
+  font-family: "Barlow";
+  font-size: 2.2em;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.46px;
+  color: var(--black);
+  margin-bottom: 31px;
+}
+
+.content_tools {
+  width: 50%;
+  padding: 0px 50px;
+}
+
+.contenedor_skill {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.scrum {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 74px;
+}
+
+.tools {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}

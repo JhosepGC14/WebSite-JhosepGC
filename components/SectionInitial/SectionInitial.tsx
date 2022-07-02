@@ -9,7 +9,7 @@ const SectionInitial = () => {
       <div className={styles.container__start}>
         <div className={styles.container__info}>
           <h3 className={styles.text_red}>HOLA,</h3>
-          <h3> SOY JHOSEP GUADALUPE.</h3>
+          <h3>SOY JHOSEP GUADALUPE.</h3>
           <h1>FRONT-END DEVELOPER</h1>
           <p>Me apasiona el desarrollo de software, web, movíl y</p>
           <p>todo los relacionado con la tecnologia.</p>

@@ -1,7 +1,11 @@
 import { useState } from "react";
 import SkillBar from "../shared/SkillBar";
 import styles from "./section.skills.module.css";
-import { skillsAgile, skillsArray, skillsTools } from "../../utilities/getSkill";
+import {
+  skillsAgile,
+  skillsArray,
+  skillsTools,
+} from "../../utilities/getSkill";
 
 const SectionSkills = () => {
   const [itemSkills] = useState(skillsArray || []);

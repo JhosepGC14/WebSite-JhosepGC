@@ -3,7 +3,7 @@ import { calculateAge } from "../../utilities/getAge";
 import { itemsInterestArray } from "../../utilities/itemsInterest";
 import ItemInterest from "../ItemInterest";
 import ButtonPrimary from "../shared/ButtonPrimary";
-import styles from "./sectionAbout.module.css";
+import styles from "./section.about.module.css";
 
 const SectionAbout = () => {
   const age = calculateAge("14/07/1998");

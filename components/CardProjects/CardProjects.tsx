@@ -1,11 +1,12 @@
+import { FC } from "react";
+
+//styles
 import styles from "./card.projects.module.css";
 
-interface PropsCardProjects {
-  url: string;
-  image: string
-}
+//types
+import { PropsCardProjects } from './types';
 
-const CardProjects = ({ url, image }: PropsCardProjects) => {
+const CardProjects: FC<PropsCardProjects> = ({ url, image }) => {
   return (
     <div className={styles.content_project}>
       <img src={`/img/${image}.svg`} alt="project1" />

@@ -1,4 +1,4 @@
-import CardProjects from "../CardProjects";
+import { CardProjects } from "../CardProjects";
 import styles from "./section.projects.module.css";
 
 const SectionProjects = () => {
